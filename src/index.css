@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  /* =========================
+     BACKGROUND LAYERS
+     ========================= */
+
+  --color-background: oklch(0.08 0.02 260);
+  /* very dark navy background */
+
+  --color-surface: oklch(0.12 0.025 260);
+  /* slightly lighter than background (cards, panels) */
+
+  /* =========================
+     TEXT
+     ========================= */
+
+  --color-foreground: oklch(0.95 0.01 260);
+  /* main readable text (almost white, not pure white) */
+
+  --color-muted: oklch(0.65 0.03 250);
+  /* secondary text, nav links, descriptions */
+
+  /* =========================
+     BRAND / ACTION
+     ========================= */
+
+  --color-primary-500: oklch(0.72 0.11 178);
+  /* teal / cyan brand color (CTA, highlights) */
+
+  --color-primary-600: oklch(0.66 0.11 178);
+  /* hover / active state */
+
+  --color-accent-500: oklch(0.72 0.11 178);
+  /* same as primary (common in SaaS) */
+
+  --color-accent-600: oklch(0.66 0.11 178);
+
+  /* =========================
+     ON-COLOR TEXT
+     ========================= */
+
+  --color-on-primary: oklch(0.08 0.02 260);
+  /* text on primary buttons (dark text on teal) */
+}
