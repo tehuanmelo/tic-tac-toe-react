@@ -1,17 +1,82 @@
-# React + Vite
+# Tic Tac Toe (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive **Tic Tac Toe** game built with **React** and **Vite**, styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **GitHub Pages:** https://tehuanmelo.github.io/tic-tac-toe/
 
-## React Compiler
+> Replace `YOUR_GITHUB_USERNAME` with your GitHub username.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Classic 3×3 Tic Tac Toe
+- Win detection + winner highlight
+- Responsive layout (works on mobile and desktop)
+- Fast dev experience with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# tic-tac-toe-react
+## 🧰 Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- gh-pages (deployment)
+
+## ✅ Getting Started
+
+### 1) Install
+
+```bash
+npm install
+```
+
+### 2) Run locally
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal (usually `http://localhost:5173`).
+
+### 3) Build
+
+```bash
+npm run build
+```
+
+### 4) Preview production build
+
+```bash
+npm run preview
+```
+
+## 🌍 Deploy to GitHub Pages
+
+This project is configured to deploy the `dist` folder using `gh-pages`.
+
+### One-time GitHub setup
+
+1. Push your code to GitHub.
+2. In your repo on GitHub, go to **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the branch **`gh-pages`** and folder **`/(root)`**, then save.
+
+### Deploy command
+
+```bash
+npm run deploy
+```
+
+After deploy, your site will be available at:
+
+```
+https://YOUR_GITHUB_USERNAME.github.io/tic-tac-toe/
+```
+
+## 📝 Notes
+
+- If you ever see a blank page on GitHub Pages, it’s usually because asset paths are wrong. This project uses a **relative base** (`base: "./"`) in `vite.config.js` to avoid that.
+
+## 📄 License
+
+MIT
